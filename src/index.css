@@ -55,8 +55,10 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
     background-image: 
-      radial-gradient(circle at 20% 50%, hsl(220 20% 12% / 0.3) 0%, transparent 50%),
-      radial-gradient(circle at 80% 80%, hsl(220 20% 10% / 0.3) 0%, transparent 50%),
-      repeating-linear-gradient(0deg, transparent, transparent 2px, hsl(220 15% 10% / 0.3) 2px, hsl(220 15% 10% / 0.3) 4px);
+      radial-gradient(circle at 20% 30%, hsl(270 80% 20% / 0.15) 0%, transparent 40%),
+      radial-gradient(circle at 80% 70%, hsl(310 75% 25% / 0.15) 0%, transparent 40%),
+      repeating-linear-gradient(45deg, transparent, transparent 10px, hsl(220 15% 12% / 0.5) 10px, hsl(220 15% 12% / 0.5) 11px),
+      repeating-linear-gradient(-45deg, transparent, transparent 10px, hsl(220 15% 11% / 0.5) 10px, hsl(220 15% 11% / 0.5) 11px);
+    background-size: 100% 100%, 100% 100%, 20px 20px, 20px 20px;
   }
 }
