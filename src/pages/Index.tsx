@@ -12,11 +12,11 @@ const Index = () => {
     <div className="flex min-h-screen flex-col items-center justify-center px-4 py-8">
       {/* Header Section */}
       <div className="w-full max-w-4xl text-center mb-12">
-        <h1 className="mb-3 text-3xl md:text-4xl font-bold font-rajdhani bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-          Welcome to the Future
+        <h1 className="mb-3 text-3xl md:text-4xl font-extrabold font-rajdhani bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+          Welcome to Nopersity
         </h1>
         <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-          Navigate to your destination with a single click
+          Your number 1 streaming destination.
         </p>
       </div>
 
@@ -80,7 +80,7 @@ const Index = () => {
       {/* Extra Info Section */}
       <div className="mt-8 text-center">
         <p className="text-xs text-muted-foreground max-w-2xl mx-auto">
-          All services are hosted securely and optimized for the best streaming experience
+          Issues with the service? Need some help? Reach out to Bart! I'll get right on it!
         </p>
       </div>
     </div>
