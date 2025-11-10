@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import embyIcon from "@/assets/emby-icon.png";
-import jellyseerIcon from "@/assets/jellyseer-icon.png";
+import jellyseerIcon from "@/assets/jellyseer-icon.svg";
 import tipjarIcon from "@/assets/tipjar-icon.png";
 
 const Index = () => {
