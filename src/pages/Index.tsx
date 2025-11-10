@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import embyIcon from "@/assets/emby-icon.svg";
 import jellyseerIcon from "@/assets/jellyseer-icon.svg";
-import tipjarIcon from "@/assets/tipjar-icon.png";
+import tipjarIcon from "@/assets/tipjar-icon.svg";
 
 const Index = () => {
   const handleNavigation = (url: string) => {
@@ -9,10 +9,10 @@ const Index = () => {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between px-4 py-8">
+    <div className="flex min-h-screen flex-col items-center justify-center px-4 py-8">
       {/* Header Section */}
-      <div className="w-full max-w-4xl text-center pt-12 md:pt-20">
-        <h1 className="mb-4 text-3xl md:text-4xl font-bold font-rajdhani bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+      <div className="w-full max-w-4xl text-center mb-12">
+        <h1 className="mb-3 text-3xl md:text-4xl font-bold font-rajdhani bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
           Welcome to the Future
         </h1>
         <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -21,7 +21,7 @@ const Index = () => {
       </div>
 
       {/* Center Buttons Section */}
-      <div className="flex flex-col md:flex-row gap-8 items-center justify-center py-8">
+      <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
         <Button
           variant="nav"
           size="xl"
@@ -67,7 +67,7 @@ const Index = () => {
           <img 
             src={tipjarIcon} 
             alt="Tip Jar" 
-            className="w-20 h-20 mb-4 transition-transform duration-300 group-hover:rotate-180 group-hover:scale-125"
+            className="w-20 h-20 mb-4 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-125 brightness-0 invert"
           />
           <span className="relative z-10 text-xl font-bold font-rajdhani">Tip Jar</span>
           <span className="relative z-10 text-xs mt-1 font-rajdhani text-muted-foreground px-4 text-center">
@@ -77,8 +77,12 @@ const Index = () => {
         </Button>
       </div>
 
-      {/* Footer Spacer */}
-      <div className="h-20" />
+      {/* Extra Info Section */}
+      <div className="mt-8 text-center">
+        <p className="text-xs text-muted-foreground max-w-2xl mx-auto">
+          All services are hosted securely and optimized for the best streaming experience
+        </p>
+      </div>
     </div>
   );
 };
