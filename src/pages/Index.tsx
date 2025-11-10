@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import embyIcon from "@/assets/emby-icon.png";
+import embyIcon from "@/assets/emby-icon.svg";
 import jellyseerIcon from "@/assets/jellyseer-icon.svg";
 import tipjarIcon from "@/assets/tipjar-icon.png";
 
